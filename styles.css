@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,22 +8,22 @@ body {
     max-width: 600px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2vi;
     padding: 20px;
     margin-top: -49vi;
-    margin-left: 7vi;
+    margin-left: 1vi;
     width: 4vi;
 }
 .category {
-    background-color: #fff;
+    background-color:rgb(39, 131, 39);
     border-radius: 2vi;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     width: 12vi;
     height: 12vi;
     margin-top: 6vi;
-    left: 0vi;
+    left: 10vi;
 }
 .category a {
     text-decoration: none;
@@ -46,6 +45,7 @@ body {
     margin-top: -1vi;
     width: 12vi;
     color: rgb(39, 131, 39);
+    text-decoration: none;
 }
 .enlace a {
     text-decoration: none;
@@ -62,8 +62,192 @@ body {
 .cuadro {
     background-color: white;
     border-radius: 2vi;
-    width: 70vi;
+    width: 74vi;
     height: 50vi;
     margin-top: 6vi;
     margin-left: 25vi;
+}
+.cuadroI {
+    position: absolute;
+    background-color: white;
+    border-radius: 0.6vi;
+    width: 13vi;
+    height: 3vi;
+    margin-top: -25.4vi;
+    margin-left: 27.8vi;
+    font-size: 0.7vi;
+    text-align: start;
+    color: rgb(39, 131, 39);
+}
+.cuadroII {
+    position: absolute;
+    background-color:  rgb(39, 131, 39);
+    border-radius: 0.6vi;
+    width: 4vi;
+    height: 1vi;
+    margin-top: -24.5vi;
+    margin-left: 35vi;
+    font-size: 0.7vi;
+    text-align: center;
+}
+.cuadro3 {
+    position: absolute;
+    background-color: white;
+    border-radius: 0.6vi;
+    width: 13vi;
+    height: 3vi;
+    margin-top: -25.4vi;
+    margin-left: 44vi;
+    font-size: 0.7vi;
+    text-align: start;
+    color: rgb(39, 131, 39);
+}
+.cuadro4 {
+    position: absolute;
+    background-color:  rgb(39, 131, 39);
+    border-radius: 0.6vi;
+    width: 4vi;
+    height: 1vi;
+    margin-top: -24.5vi;
+    margin-left: 52vi;
+    font-size: 0.7vi;
+    text-align: center;
+}
+.cuadro5 {
+    position: absolute;
+    background-color: white;
+    border-radius: 0.6vi;
+    width: 13vi;
+    height: 3vi;
+    margin-top: -25.4vi;
+    margin-left: 60vi;
+    font-size: 0.7vi;
+    text-align: start;
+    color: rgb(39, 131, 39);
+}
+.cuadro6 {
+    position: absolute;
+    background-color:  rgb(39, 131, 39);
+    border-radius: 0.6vi;
+    width: 4vi;
+    height: 1vi;
+    margin-top: -24.5vi;
+    margin-left: 68vi;
+    font-size: 0.7vi;
+    text-align: center;
+}
+.cuadro7 {
+    position: absolute;
+    background-color: white;
+    border-radius: 0.6vi;
+    width: 13vi;
+    height: 3vi;
+    margin-top: -25.4vi;
+    margin-left: 76.2vi;
+    font-size: 0.7vi;
+    text-align: start;
+    color: rgb(39, 131, 39);
+}
+.cuadro8 {
+    position: absolute;
+    background-color:  rgb(39, 131, 39);
+    border-radius: 0.6vi;
+    width: 4vi;
+    height: 1vi;
+    margin-top: -24.5vi;
+    margin-left: 84.6vi;
+    font-size: 0.7vi;
+    text-align: center;
+}
+.cuadro9 {
+    position: absolute;
+    background-color: white;
+    border-radius: 0.6vi;
+    width: 13vi;
+    height: 3vi;
+    margin-top: -3vi;
+    margin-left: 27.8vi;
+    font-size: 0.7vi;
+    text-align: start;
+    color: rgb(39, 131, 39);
+}
+.cuadro10 {
+    position: absolute;
+    background-color:  rgb(39, 131, 39);
+    border-radius: 0.6vi;
+    width: 4vi;
+    height: 1vi;
+    margin-top: -2vi;
+    margin-left: 35vi;
+    font-size: 0.7vi;
+    text-align: center;
+}
+.cuadro11 {
+    position: absolute;
+    background-color: white;
+    border-radius: 0.6vi;
+    width: 13vi;
+    height: 3vi;
+    margin-top: -3vi;
+    margin-left: 44vi;
+    font-size: 0.7vi;
+    text-align: start;
+    color: rgb(39, 131, 39);
+}
+.cuadro12 {
+    position: absolute;
+    background-color:  rgb(39, 131, 39);
+    border-radius: 0.6vi;
+    width: 4vi;
+    height: 1vi;
+    margin-top: -2vi;
+    margin-left: 52vi;
+    font-size: 0.7vi;
+    text-align: center;
+}
+.cuadro13 {
+    position: absolute;
+    background-color: white;
+    border-radius: 0.6vi;
+    width: 13vi;
+    height: 3vi;
+    margin-top: -3vi;
+    margin-left: 60vi;
+    font-size: 0.7vi;
+    text-align: start;
+    color: rgb(39, 131, 39);
+}
+.cuadro14 {
+    position: absolute;
+    background-color:  rgb(39, 131, 39);
+    border-radius: 0.6vi;
+    width: 4vi;
+    height: 1vi;
+    margin-top: -2vi;
+    margin-left: 68vi;
+    font-size: 0.7vi;
+    text-align: center;
+}
+.cuadro15 {
+    position: absolute;
+    background-color: white;
+    border-radius: 0.6vi;
+    width: 13vi;
+    height: 3vi;
+    margin-top: -3vi;
+    margin-left: 76.2vi;
+    font-size: 0.7vi;
+    text-align: start;
+    color: rgb(39, 131, 39);
+}
+.cuadro16 {
+    position: absolute;
+    background-color:  rgb(39, 131, 39);
+    border-radius: 0.6vi;
+    width: 4vi;
+    height: 1vi;
+    margin-top: -2vi;
+    margin-left: 84.6vi;
+    font-size: 0.7vi;
+    text-align: center;
 }
