@@ -10,19 +10,60 @@ body {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 2vi;
     padding: 20px;
+    margin-top: -49vi;
+    margin-left: 7vi;
+    width: 4vi;
 }
 .category {
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 2vi;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    text-align: center;
+    width: 12vi;
+    height: 12vi;
+    margin-top: 6vi;
+    left: 0vi;
 }
 .category a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1vi;
+}
+.category img {
+    margin-top: 0vi;
+    margin-left: 1.5vi;
+    width: 9vi;
+    height: 9vi;
+}
+.enlace {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 3vi;
+    padding: 5vi;
+    margin-top: -1vi;
+    width: 12vi;
+    color: rgb(39, 131, 39);
+}
+.enlace a {
+    text-decoration: none;
+    color: rgb(39, 131, 39);
+    font-weight: bold;
+    font-size: 1vi;
+}
+.titu {
+    position: absolute;
+    top: 5vi;
+    left: 30vi;
+    color: rgb(39, 131, 39);
+}
+.cuadro {
+    background-color: white;
+    border-radius: 2vi;
+    width: 70vi;
+    height: 50vi;
+    margin-top: 6vi;
+    margin-left: 25vi;
 }
